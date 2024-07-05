@@ -1,4 +1,4 @@
-# 20230914_FPGA学习笔记
+![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/0817fe02-f36c-4eef-90af-a84415ed8114)# 20230914_FPGA学习笔记
 
 ## 1 环境搭建
 
@@ -90,22 +90,25 @@
     * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/c2921b47-a47c-4da7-a320-ea6d90776a07)
 
   * Finish
-    * ![image-20230815221829231](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815221829231.png)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/da66fc6c-d6d5-4722-9a24-ae1c5afe3221)
+
 * (2)将写好的“.v”文件加载到工程当中：
-  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/226bccb0-0ed2-41c9-9df0-35037730d16a)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/76bb660d-4a5c-459c-a4e1-50c6c5296920)
 
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/1bcb061b-6b07-4c7e-b23c-40b06e98982f)
 
-  * ![image-20230815222351808](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815222351808.png)
 * (3)编译代码：
-  * ![image-20230815222538895](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815222538895.png)
-  * ![image-20230815222748338](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815222748338.png)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/ed8881d9-1757-4dc2-896f-d3e1646489aa)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/2244e7b8-4072-4dbe-9a12-f7bb97a5dec0)
+
   * 编译完成
 
 #### 3.1.7 逻辑仿真
 
 * (1)使用仿真文件产生模拟的激励信号输入到被测试模块当中，观察输出响应是否达到要求：
 
-  * ![](https://pic.imgdb.cn/item/64db8bcc661c6c8e54b74a40.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/5ae4c3c2-b010-4a14-8615-5025aea229ba)
+
 
 * (2)仿真需要编写仿真文件，使用野火编写好的仿真程序即可,测试文件需要放在“sim”文件夹中：
 
@@ -167,52 +170,72 @@
 
 * (3)添加仿真测试文件：
 
-  * ![](https://pic.imgdb.cn/item/64db89c4661c6c8e54b1f8c5.jpg)
-  * ![](https://pic.imgdb.cn/item/64db8daf661c6c8e54bc538b.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/289340fa-0254-4081-979d-78a2641dd2c2)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/eaee47d3-32c6-4070-b88d-9e6123b51119)
+
 
 * (4)仿真设置：
 
-  * ![](https://pic.imgdb.cn/item/64db8e21661c6c8e54bd8e0e.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/cc145a30-8396-4b68-b779-238e56491c5e)
+
   * 在“simulation”选项中进行设置：
-  * ![](https://pic.imgdb.cn/item/64db8f67661c6c8e54c0fe77.jpg)
-  * ![](https://pic.imgdb.cn/item/64db8f45661c6c8e54c09be3.jpg)
-  * ![](https://pic.imgdb.cn/item/64db900e661c6c8e54c2ce27.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/136fb102-99c0-44d5-9331-8aa2417b9b54)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/985add4c-97b5-4dc9-a602-1160abfd80f8)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/8c5193ef-104b-4ef7-a11d-97ba6c10e495)
+
   * OK-->Apply下去即可
 
 #### 3.1.8 波形对比
 
 * 运行仿真,这里介绍了ModelSim仿真软件使用方法，详情可看视频25:55的内容：
-  * ![](https://pic.imgdb.cn/item/64db90fd661c6c8e54c53a13.jpg)
-  * ![](https://pic.imgdb.cn/item/64db934d661c6c8e54cb7276.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/fc0defe4-4c90-4475-9a43-25cd477f3a81)
+
+  * v![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/4f6bf3ae-6325-4b79-a910-9a02be212a59)
+
 
 #### 3.1.9 绑定管脚
 
-* ![](https://pic.imgdb.cn/item/64db9396661c6c8e54cc30b3.jpg)
-* ![](https://pic.imgdb.cn/item/64db93f8661c6c8e54cd3ba4.jpg)
+* ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/71cb11ec-98e3-40ff-9746-355c836ee435)
+
+* ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/95721e28-9ac2-47c3-80f9-2b2654998d0c)
+
 
 * 返回工程进行重新编译；
 
 #### 3.1.10 上板验证
 
 * 点击“programmer”，选择添加文件：
-  * ![](https://pic.imgdb.cn/item/64db9521661c6c8e54d1163f.jpg)
-* ![](https://pic.imgdb.cn/item/64db96b5661c6c8e54d761e5.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/2f5cfcf6-0b34-4ea4-85c4-d0c8a43d46aa)
+
+* ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/580c545a-d074-405f-86ef-25e15c3a3ab7)
+
 * 如果是第一次下载程序，会出现电脑无法识别JTAG端口问题，在开发板使用手册“第4章Quartus软件和USB-Blaster驱动安装”有解决办法介绍
 
 #### 3.1.11 程序固化
 
 * （1）生成“.jic”文件
-  * ![](https://pic.imgdb.cn/item/64db9721661c6c8e54d9242b.jpg)
-  * ![](https://pic.imgdb.cn/item/64db97b8661c6c8e54db895b.jpg)
-  * ![](https://pic.imgdb.cn/item/64db980f661c6c8e54dcda36.jpg)
-  * ![](https://pic.imgdb.cn/item/64db985d661c6c8e54de00f9.jpg)
-  * ![](https://pic.imgdb.cn/item/64db9873661c6c8e54de5703.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/80d7b6de-85fa-4721-85d1-08ce514be346)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/207ba8e5-923c-4285-953d-c11ed95e8d4d)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/2d3f8eec-b148-41a9-90d3-4adad691ffb6)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/9c79b9ba-1638-4629-b5e6-78f24ca95d53)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/e524b13f-a6c8-47a0-b0be-954174a48792)
+
 * (2)删除原来的“.sof”文件：
-  * ![](https://pic.imgdb.cn/item/64db98a9661c6c8e54df2235.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/d0b916f1-683a-4695-89a4-1ac4025ad161)
+
 * (3)添加生成后的“.jic”文件：
-  * ![image-20230815232620937](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815232620937.png)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/7430dbe3-e5bd-46ac-9dcf-dae44af45e06)
+
 * (4)固化程序：
-  * ![image-20230815232705590](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815232705590.png)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/e0269d7f-4262-422b-ba8d-174d8822e238)
+
 * (5)重新上电即可验证固化成功。
 
 ## 4 简单组合逻辑
