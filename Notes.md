@@ -27,18 +27,23 @@
 
 * (1)KEY-->LED：用按键点亮LED灯，简单不需要模块划分。
 * (2)确定原理图：KEY1按下让D6亮起
-  * ![](https://pic.imgdb.cn/item/64db7de8661c6c8e5491b43e.jpg)
-  * ![](https://pic.imgdb.cn/item/64db7e1d661c6c8e549241cc.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/20e43df7-20d5-4bfe-abca-cc3da439e09c)
+
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/7d51cc30-cc78-451f-acaf-afe2c32b19e4)
+
   * KEY1引脚为：CLK2_M2
-  * ![](https://pic.imgdb.cn/item/64db7e92661c6c8e54936bc0.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/c7d19545-31e7-4821-bce6-87e35a21c137)
+
   * D6引脚为：IO_B3_L7
-  * ![](https://pic.imgdb.cn/item/64db7edd661c6c8e549439cd.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/40d8f29b-797a-4f79-8b79-1e25aad3ef24)
+
 
 #### 3.1.4 波形绘制
 
 * (1)打开文件夹“doc”，新建“visio”绘图：
 * (2)绘制波形图：
-  * ![](https://pic.imgdb.cn/item/64db7fb6661c6c8e549665bd.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/d5ae4f6a-5c66-4b1a-b0c9-8763f58aa71b)
+
 
 #### 3.1.5 代码编写
 
@@ -62,26 +67,34 @@
 
 * （1）打开开发软件“Quartus II”，新建工程：
   * 左上角“File”选项，选择“New Project Wizard”
-    * ![](https://pic.imgdb.cn/item/64db840f661c6c8e54a1d31e.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/d7e5c6bc-471d-4621-ae2f-8142ca76d0fd)
+
   * 进入向导界面，点击next：
-    * ![](https://pic.imgdb.cn/item/64db84b8661c6c8e54a397a4.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/0b4d4f5e-7c17-4726-97ab-2a72d69390b4)
+
   * 选择工程文件保存路径，第三个选项保持默认：
-    * ![](https://pic.imgdb.cn/item/64db8557661c6c8e54a58d94.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/75d4da94-a053-4569-8b34-88a84fe31732)
+
   * 跳过：
-    * ![](https://pic.imgdb.cn/item/64db86a2661c6c8e54a9074a.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/37d57fff-cddf-4427-8f7c-76fbc8d3dc1f)
+
   * 这里需要找到项目芯片使用型号：
     * 1.器件选择：Cyclone IV E
     * 2.封装方式：FBGA
     * 3.引脚数量：256
     * 4.速度等级：8
     * 5.芯片型号：EP4CE10F17C8
-    * ![](https://pic.imgdb.cn/item/64db8719661c6c8e54aa4fae.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/0b60beb6-8c6f-404f-8b6c-12b5cb368de7)
+
   * EDA工具设置直接跳过：
-    * ![](https://pic.imgdb.cn/item/64db890e661c6c8e54affc62.jpg)
+    * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/c2921b47-a47c-4da7-a320-ea6d90776a07)
+
   * Finish
     * ![image-20230815221829231](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815221829231.png)
 * (2)将写好的“.v”文件加载到工程当中：
-  * ![](https://pic.imgdb.cn/item/64db89c4661c6c8e54b1f8c5.jpg)
+  * ![image](https://github.com/CoderSuHang/FPGA-Notes/assets/104765251/226bccb0-0ed2-41c9-9df0-35037730d16a)
+
+
   * ![image-20230815222351808](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815222351808.png)
 * (3)编译代码：
   * ![image-20230815222538895](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815222538895.png)
