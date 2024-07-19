@@ -15,12 +15,16 @@
 
 * (1)KEY-->LED：用按键点亮LED灯，简单不需要模块划分。
 * (2)确定原理图：KEY1按下让D6亮起
-  * ![](https://pic.imgdb.cn/item/64db7de8661c6c8e5491b43e.jpg)
-  * ![](https://pic.imgdb.cn/item/64db7e1d661c6c8e549241cc.jpg)
+  * ![image](https://github.com/user-attachments/assets/9c249afc-3cc3-4371-a275-1a3686c4525f)
+
+  * ![image](https://github.com/user-attachments/assets/97023c7d-83cb-49b3-9f18-43b176fff62b)
+
   * KEY1引脚为：CLK2_M2
-  * ![](https://pic.imgdb.cn/item/64db7e92661c6c8e54936bc0.jpg)
+  * ![image](https://github.com/user-attachments/assets/a9131b5f-2012-4524-95b3-613acfcb5ad5)
+
   * D6引脚为：IO_B3_L7
-  * ![](https://pic.imgdb.cn/item/64db7edd661c6c8e549439cd.jpg)
+  * ![image](https://github.com/user-attachments/assets/4a2b9ae1-559c-46c3-b457-92bf87441cfa)
+
 
 #### 3.1.4 波形绘制
 
