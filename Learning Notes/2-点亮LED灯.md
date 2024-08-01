@@ -189,7 +189,9 @@
 * (2)删除原来的“.sof”文件：
   * ![](https://pic.imgdb.cn/item/64db98a9661c6c8e54df2235.jpg)
 * (3)添加生成后的“.jic”文件：
-  * ![image-20230815232620937](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815232620937.png)
+  * ![image](https://github.com/user-attachments/assets/34228ff8-c0a4-4716-8d1e-43b0597976af)
+
 * (4)固化程序：
-  * ![image-20230815232705590](C:\Users\10482\AppData\Roaming\Typora\typora-user-images\image-20230815232705590.png)
+  * ![image](https://github.com/user-attachments/assets/9b2ef638-ebca-4bb0-b037-fb7c74423138)
+
 * (5)重新上电即可验证固化成功。
