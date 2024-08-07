@@ -58,7 +58,7 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e860ca661c6c8e54f48a82.jpg)
+  * ![image](https://github.com/user-attachments/assets/7f86215e-ed04-4e2b-97f2-0f01c83f726e)
 
 * 产生Latch版：
 
@@ -96,9 +96,11 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e86189661c6c8e54f4cc03.jpg)
+  * ![image](https://github.com/user-attachments/assets/2e359846-ccbb-417c-9823-a87041ec40bc)
 
-  * ![](https://pic.imgdb.cn/item/64e861af661c6c8e54f4f06c.jpg)
+
+  * ![image](https://github.com/user-attachments/assets/d934e8b6-c6c0-4eed-914b-47644f202aae)
+
 
 #### 6.2.2 组合逻辑中case条件分支语句条件未完全列举，且缺少default语句
 
@@ -131,7 +133,8 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e8623b661c6c8e54f58e82.jpg)
+  * ![image](https://github.com/user-attachments/assets/c017404d-55e9-4f1f-9ff4-daab18d012d9)
+
 
 * 产生Latch版：
 
@@ -162,9 +165,11 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e862dd661c6c8e54f5c2e9.jpg)
+  * ![image](https://github.com/user-attachments/assets/8bcc8d73-a2a9-48a3-b0d2-518864d1e4bb)
 
-  * ![](https://pic.imgdb.cn/item/64e862ff661c6c8e54f5cff0.jpg)
+
+  * ![image](https://github.com/user-attachments/assets/f80ee19f-6d6c-455c-9f93-8251739222b6)
+
 
 #### 6.2.3 组合逻辑中输出变量赋值给自己
 
@@ -197,7 +202,8 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e8623b661c6c8e54f58e82.jpg)
+  * ![image](https://github.com/user-attachments/assets/f57afa8f-211f-4d01-897c-f24e46b02904)
+
 
 * 产生Latch版：
 
@@ -230,9 +236,11 @@
     endmodule
     ```
 
-  * ![](https://pic.imgdb.cn/item/64e863ba661c6c8e54f5feb4.jpg)
+  * ![image](https://github.com/user-attachments/assets/fb484643-eb4e-49cf-9230-faef92ebbdd0)
 
-  * ![](https://pic.imgdb.cn/item/64e86417661c6c8e54f61d36.jpg)
+
+  * ![image](https://github.com/user-attachments/assets/e519532a-c0fa-42b1-9e56-63fe6064b99d)
+
 
   * if-else语句：
 
